@@ -63,5 +63,12 @@ public class Author {
 	public void setBlogPosts(List<BlogPost> blogPosts) {
 		this.blogPosts = blogPosts;
 	}
+	
+	public void addBlogPost(BlogPost blogPost) {
+		this.blogPosts.add(blogPost);
+		if(blogPost.getAuthor() != this) {
+			blogPost.setAuthor(this);
+		}
+	}
 
 }

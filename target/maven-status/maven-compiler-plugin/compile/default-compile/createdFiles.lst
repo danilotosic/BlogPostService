@@ -1,0 +1,17 @@
+com\lakocemo\config\BlogPostServiceConfig.class
+com\lakocemo\repository\BlogPostRepository.class
+com\lakocemo\service\AuthorService.class
+com\lakocemo\service\CommentService.class
+com\lakocemo\service\BlogPostService.class
+com\lakocemo\service\impl\BlogPostServiceImpl.class
+com\lakocemo\service\impl\CommentServiceImpl.class
+com\lakocemo\model\Author.class
+com\lakocemo\converter\BlogPostConverter.class
+com\lakocemo\repository\AuthorRepository.class
+com\lakocemo\BlogPostServiceApplication.class
+com\lakocemo\model\BlogPost.class
+com\lakocemo\model\Comment.class
+com\lakocemo\dto\AuthorDetails.class
+com\lakocemo\service\impl\AuthorServiceImpl.class
+com\lakocemo\repository\CommentRepository.class
+com\lakocemo\dto\BlogPostDTO.class
